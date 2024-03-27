@@ -1,0 +1,57 @@
+h1{
+    color: blueviolet; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: rgb(0, 0, 0); 
+    padding: 10px; background-color: rgba(240, 255, 255, 0.599); 
+    
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+body{
+    border: 2px solid rgb(101, 124, 252);
+    padding: 10px;
+    margin: 20px;
+    border-style: dashed;
+    
+    background-image: url('2.jpg');
+    background-size: cover;
+}
+
+a:link{
+    color:rgb(251, 0, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover{
+    color:rgb(255, 0, 166);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:visited{
+    color:rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    color: white;
+    background-color: navy;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20;
+    border-style: ridge;
+}
+
+th, td{
+    background-color: rgba(115, 180, 253, 0.506);
+    padding: 10px;
+    
+    border: 2px solid rgba(0, 76, 255, 0.436);
+    border-collapse: collapse;
+    border-radius: 5px;
+    border-color: black;
+}

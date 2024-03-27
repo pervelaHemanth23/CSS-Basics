@@ -1,0 +1,53 @@
+.vertical{
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content;
+}
+
+.vertical li{
+    background-color: aqua;
+    padding: 10px;
+    width: 150px;
+}
+
+.vertical li:hover{
+    background-color: rgb(124, 124, 252);
+}
+
+.vertical a{
+    text-decoration: none;
+
+    font-size: large;
+}
+
+.horizontal{
+    list-style-type: none;
+    border: 2px solid black;
+    
+    padding: 10px;
+    padding-bottom: 50px;
+    width: fit-content;
+}
+
+.horizontal li{
+    float: left;
+    background-color: rgb(181, 181, 181);
+
+    border-width: 0px 1px 0px 0px;
+    border-color: blue;
+    border-style: solid;
+
+    padding: 10px;
+    width: fit-content;
+}
+
+.horizontal li:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.horizontal a{
+    text-decoration: none;
+
+    font-size: large;
+}
